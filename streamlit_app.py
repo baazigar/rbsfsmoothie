@@ -13,7 +13,7 @@ st.write("""Name on the Smoothie: """, name_on_smoothie)
 
 st.write("""Choose the fruits you want in your custom Smoothie!!""")
 
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/kiwi")
 st.text(fruityvice_response.json())
 fv_df = st.dataframe(data=fruityvice_response.json(),use_container_width = True)
 
