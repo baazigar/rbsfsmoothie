@@ -15,8 +15,7 @@ st.write("""Choose the fruits you want in your custom Smoothie!!""")
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/kiwi")
-#st.text(fruityvice_response.json())
-st.text(fruityvice_response)
+st.text(fruityvice_response.json())
 fv_df = st.dataframe(data=fruityvice_response.json(),use_container_width = True)
 
 #option = st.selectbox(
