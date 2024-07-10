@@ -8,8 +8,8 @@ import requests
 # Set the title of the app
 st.title('Welcome to the Smoothie Store!')
 
-name_on_smoothie = st.text_input("Name on the Smoothie:")
-st.write("""Name on the Smoothie: """, name_on_smoothie)
+name_on_smoothie = st.text_input("Name:")
+st.write("""Enter the name for the Smoothie: """, name_on_smoothie)
 
 st.write("""Choose the fruits you want in your custom Smoothie!!""")
 
