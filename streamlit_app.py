@@ -6,7 +6,7 @@ from snowflake.snowpark.functions import col
 
 
 # Set the title of the app
-st.title('Welcome to the Smoothie Store!')
+st.title('My Parents Smoothie Store!')
 
 name_on_smoothie = st.text_input("Name on the Smoothie:")
 st.write("""Name on the Smoothie: """, name_on_smoothie)
